@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #ecd6a4;
+    background-size: cover;
+}
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+  }
+  
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .item {
+    padding: 10px;
+  }
+  
+/*   main */
+
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    flex-basis: calc(50% - 20px); 
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+  
+
+/* footer */
+
+.footer {
+    width: 100%; 
+    background-image: url('./contact_us.jpg');
+    /* background-size: cover;  */
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    color:#fff;
+}
+
+
+.social-media {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-links a {
+    display: block;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 96px;
+    height: 96px;
+    margin: 8px;
+}
+#Instagram{
+    border-radius: 50%;
+}
+
+.social-links a:focus,
+.social-links a:hover {
+    outline: none;
+    filter: brightness(1.2);
+}
+
+#Phone {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#Phone a {
+    font-size: 3rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+    
+}
+
+#Phone a:focus,
+#Phone a:hover {
+    box-shadow: 0 0 5px 1px rgb(9, 13, 238);
+    outline: none;
+    border-color: #000;
+    outline-offset: 5px;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
