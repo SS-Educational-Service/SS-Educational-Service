@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ecd6a4;
+ /*   background-color: #000; */
+    background-size: cover;
+}
+
+
+
+header {
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 20px;
+}
+
+#content {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none; 
+}
+
+.item {
+    flex-basis: calc(50% - 40px);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer p {
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-image: url('./contact_us.jpg');
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 48px;
+    height: 48px;
+    margin: 8px;
+}
+
+#Instagram {
+    border-radius: 50%;
+}
+
+#Phone a {
+    font-size: 3rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+}
+
+#Phone a:focus,
+#Phone a:hover {
+    box-shadow: 0 0 5px 1px rgb(9, 13, 238);
+    outline: none;
+    border-color: #000;
+    outline-offset: 5px;
+}
+
+#Contatus a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: none;
+    transition: box-shadow 0.3s;
+}
+
+#Contatus a:focus,
+#Contatus a:hover {
+    box-shadow: 0 0 5px 1px rgb(9, 13, 238);
+    outline: none;
+    border-color: #000;
+    outline-offset: 5px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-height: 256px) and (min-width: 320px) {
+    .logo img {
+      padding: 0;
+    }
+    .footer {
+      font-size: 1rem;
+    }
+    #Phone a {
+        font-size: 80px;
+    }
+    #Contatus a {
+        font-size: 1rem;
+    }
+}
